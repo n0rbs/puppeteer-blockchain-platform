@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer-blockchain-platform",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No test'",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "color-logs": "^0.6.1",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "node-persist": "^3.0.5"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^2.0.0"
+  }
+}
