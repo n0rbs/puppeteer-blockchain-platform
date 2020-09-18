@@ -1,0 +1,306 @@
+{
+  "org": [
+    {
+      "ca": {
+        "displayName": "Org0 CA",
+        "identities": [
+          {
+            "enrollId": "admin",
+            "enrollSecret": "adminpw",
+            "displayName": "Org0 CA admin",
+            "type": "client"
+          },
+          {
+            "enrollId": "org1admin",
+            "enrollSecret": "org1adminpw",
+            "type": "admin"
+          },
+          {
+            "enrollId": "peer0",
+            "enrollSecret": "peer1pw",
+            "type": "peer"
+          }
+        ],
+        "identityName": "Org0 CA admin",
+        "version": "1.4.7-0"
+      },
+      "msp": {
+        "displayName": "Org0 MSP",
+        "mspId": "org1msp",
+        "identityName": "Org0 MSP admin"
+      },
+      "peer": {
+        "displayName": "Org1 Peer",
+        "version": "1.4.7-0"
+      }
+    },
+    {
+      "ca": {
+        "displayName": "Org1 CA",
+        "identities": [
+          {
+            "enrollId": "admin",
+            "enrollSecret": "adminpw",
+            "displayName": "Org1 CA admin",
+            "type": "client"
+          },
+          {
+            "enrollId": "org1admin",
+            "enrollSecret": "org1adminpw",
+            "type": "admin"
+          },
+          {
+            "enrollId": "peer1",
+            "enrollSecret": "peer1pw",
+            "type": "peer"
+          }
+        ],
+        "identityName": "Org1 CA admin",
+        "version": "1.4.7-1"
+      },
+      "msp": {
+        "displayName": "Org1 MSP",
+        "mspId": "org1msp",
+        "identityName": "Org1 MSP admin"
+      },
+      "peer": {
+        "displayName": "Org1 Peer",
+        "version": "1.4.7-1"
+      }
+    },
+    {
+      "ca": {
+        "displayName": "Org2 CA",
+        "identities": [
+          {
+            "enrollId": "admin",
+            "enrollSecret": "adminpw",
+            "displayName": "Org2 CA admin",
+            "type": "client"
+          },
+          {
+            "enrollId": "org2admin",
+            "enrollSecret": "org2adminpw",
+            "type": "admin"
+          },
+          {
+            "enrollId": "peer2",
+            "enrollSecret": "peer2pw",
+            "type": "peer"
+          }
+        ],
+        "identityName": "Org2 CA admin",
+        "version": "1.4.7-2"
+      },
+      "msp": {
+        "displayName": "Org2 MSP",
+        "mspId": "org2msp",
+        "identityName": "Org2 MSP admin"
+      },
+      "peer": {
+        "displayName": "Org2 Peer2",
+        "version": "1.4.7-2"
+      }
+    },
+    {
+      "ca": {
+        "displayName": "Org3 CA",
+        "identities": [
+          {
+            "enrollId": "admin",
+            "enrollSecret": "adminpw",
+            "displayName": "Org3 CA admin",
+            "type": "client"
+          },
+          {
+            "enrollId": "org3admin",
+            "enrollSecret": "org3adminpw",
+            "type": "admin"
+          },
+          {
+            "enrollId": "peer3",
+            "enrollSecret": "peer3pw",
+            "type": "peer"
+          }
+        ],
+        "identityName": "Org3 CA admin",
+        "version": "2.1.1-2"
+      },
+      "msp": {
+        "displayName": "Org3 MSP",
+        "mspId": "org3msp",
+        "identityName": "Org3 MSP admin"
+      },
+      "peer": {
+        "displayName": "Org3 Peer",
+        "version": "2.1.1-2"
+      }
+    }
+  ],
+  "orderer": [
+    {
+      "ca": {
+        "displayName": "Ordering Service0 CA",
+        "identities": [
+          {
+            "enrollId": "admin",
+            "enrollSecret": "adminpw",
+            "displayName": "Ordering Service0 CA admin"
+          },
+          {
+            "enrollId": "osadmin",
+            "enrollSecret": "osadminpw"
+          },
+          {
+            "enrollId": "OS0",
+            "enrollSecret": "OS0pw",
+            "type": "orderer"
+          }
+        ],
+        "identityName": "Ordering Service0 CA admin",
+        "version": "1.4.7-0"
+      },
+      "msp": {
+        "displayName": "Ordering Service0 MSP",
+        "mspId": "os0msp",
+        "identityName": "Ordering Service0 MSP admin"
+      },
+      "orderer": {
+        "displayName": "Ordering Service0",
+        "version": "1.4.7-0"
+      },
+      "nodes": 1
+    },
+    {
+      "ca": {
+        "displayName": "Ordering Service1 CA",
+        "identities": [
+          {
+            "enrollId": "admin",
+            "enrollSecret": "adminpw",
+            "displayName": "Ordering Service1 CA admin"
+          },
+          {
+            "enrollId": "osadmin",
+            "enrollSecret": "osadminpw"
+          },
+          {
+            "enrollId": "OS1",
+            "enrollSecret": "OS1pw",
+            "type": "orderer"
+          }
+        ],
+        "identityName": "Ordering Service1 CA admin",
+        "version": "1.4.7-1"
+      },
+      "msp": {
+        "displayName": "Ordering Service1 MSP",
+        "mspId": "os1msp",
+        "identityName": "Ordering Service1 MSP admin"
+      },
+      "orderer": {
+        "displayName": "Ordering Service1",
+        "version": "1.4.7-0"
+      },
+      "nodes": 1
+    },
+    {
+      "ca": {
+        "displayName": "Ordering Service2 CA",
+        "identities": [
+          {
+            "enrollId": "admin",
+            "enrollSecret": "adminpw",
+            "displayName": "Ordering Service2 CA admin"
+          },
+          {
+            "enrollId": "osadmin",
+            "enrollSecret": "osadminpw"
+          },
+          {
+            "enrollId": "OS2",
+            "enrollSecret": "OS2pw",
+            "type": "orderer"
+          }
+        ],
+        "identityName": "Ordering Service2 CA admin",
+        "version": "1.4.7-2"
+      },
+      "msp": {
+        "displayName": "Ordering Service2 MSP",
+        "mspId": "os2msp",
+        "identityName": "Ordering Service2 MSP admin"
+      },
+      "orderer": {
+        "displayName": "Ordering Service2",
+        "version": "1.4.7-2"
+      },
+      "nodes": 1
+    },
+    {
+      "ca": {
+        "displayName": "Ordering Service3 CA",
+        "identities": [
+          {
+            "enrollId": "admin",
+            "enrollSecret": "adminpw",
+            "displayName": "Ordering Service3 CA admin"
+          },
+          {
+            "enrollId": "osadmin",
+            "enrollSecret": "osadminpw"
+          },
+          {
+            "enrollId": "OS3",
+            "enrollSecret": "OS3pw",
+            "type": "orderer"
+          }
+        ],
+        "identityName": "Ordering Service3 CA admin",
+        "version": "2.1.1-1"
+      },
+      "msp": {
+        "displayName": "Ordering Service3 MSP",
+        "mspId": "os3msp",
+        "identityName": "Ordering Service3 MSP admin"
+      },
+      "orderer": {
+        "displayName": "Ordering Service3",
+        "version": "2.1.1-1"
+      },
+      "nodes": 1
+    }
+  ],
+  "channel": [
+    {
+      "name": "channel0",
+      "policy": "1 out of 1"
+    },
+    {
+      "name": "channel1",
+      "policy": "1 out of 1"
+    },
+    {
+      "name": "channel2",
+      "policy": "1 out of 1"
+    },
+    {
+      "name": "channel3",
+      "policy": "1 out of 1"
+    }
+  ],
+  "cc": [
+    {
+      "name": "fabcar@2.0.0.cds"
+    },
+    {
+      "name": "fabcar@2.0.0.cds"
+    },
+    {
+      "name": "fabcar@2.0.0.cds"
+    },
+    {
+      "name": "fabcar@2.0.0.cds"
+    }
+  ]
+}
