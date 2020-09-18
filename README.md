@@ -24,12 +24,14 @@ Create `.env` file to store app config:
 
 
 ```bash
-# URLs of your IBP v2 application
-URL=<YOUR_BLOCKCHAIN_PLATFORM_SERVICE_URL>
+# Your IBM Cloud Blockchain Platform service console URL
+URL=https://561xxxxxxxxxxxx.ibpconsole-console.uss02.blockchain.cloud.ibm.com
 USERNAME=xyz@ibm.com
 PASSWORD=letmein213
+# IBM Cloud authentication
 LOGIN=IBM
-MODE=1
+# Test data - MODE (0, 1, 2, 3) Check ./data/data.json
+MODE=2
 ```
 
 ## Run
