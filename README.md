@@ -32,6 +32,8 @@ PASSWORD=letmein213
 LOGIN=IBM
 # Test data - MODE (0, 1, 2, 3) Check ./data/data.json
 MODE=2
+
+# DEBUG=true
 ```
 
 ## Run

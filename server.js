@@ -77,7 +77,7 @@ const runIBPcreate = async () => {
   await orderer.addOrgToOrderer({ orderer: ordererNode, msp: orgMSP });
 
   await channel.createChannel({ orderer: ordererNode, channelName, policy, msp: orgMSP });
-  await channel.addPeerToChannel({ orderer: ordererNode, channelName, peer: orgPeer });
+  // await channel.addPeerToChannel({ orderer: ordererNode, channelName, peer: orgPeer });
 };
 
 const run = async () => {
